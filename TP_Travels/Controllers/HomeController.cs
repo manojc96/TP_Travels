@@ -18,7 +18,15 @@ namespace TP_Travels.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Services()
+        {
+            return View();
+        }
+        public IActionResult Pricing()
+        {
+            return View();
+        }
+        public IActionResult Contact()
         {
             return View();
         }
