@@ -81,3 +81,11 @@ ScrollReveal().reveal(".download__links", {
     ...scrollRevealOption,
     delay: 1500,
 });
+
+function redirectToPhone() {
+    window.location.href = 'tel:+1234567890';
+}
+
+function redirectToMail() {
+    window.location.href = 'mailto:example@example.com';
+}
